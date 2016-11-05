@@ -1,0 +1,34 @@
+.cover{
+	position:relative;
+	width: 70%;
+	height: 250px;
+	left:40px;
+	border: 1 solid;
+}
+
+.photo{
+	position:absolute;
+	width: 150px;
+	height: 150px;
+	left: 20px;
+	bottom: 10px;
+	border: 2 solid;
+}
+
+.coverName{
+	position:absolute;
+	width: 200px;
+	height: 50px;
+	left: 200px;
+	bottom: 20px;
+	border: 2 solid;
+}
+.coverbutton{
+	position:absolute;
+	width: 200px;
+	height: 50px;
+	right: 20px;
+	bottom: 20px;
+	border: 2 solid;
+	visibility: hidden;
+}

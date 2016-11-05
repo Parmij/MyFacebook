@@ -1,0 +1,95 @@
+div{
+
+}
+
+body{
+	background-color: #e9eaed;
+}
+.timeline{
+	position:static;
+	overflow: auto;
+	border:1px solid; 
+	width:60%; 
+	padding:42px 20%;
+}
+.newpost{
+	background-color: #ffffff; 
+	position:relative; margin:5px;  
+	width:60%; word-break:break-all;
+}
+#t1{
+	padding: 8px 7px 0 7px; 
+				resize: both; 
+				vertical-align: bottom; 
+				background-color: transparent;
+				border: 0;
+				-webkit-box-sizing: border-box;
+				resize: none;
+				width: 100%; 
+				background: transparent;
+				overflow: hidden; 
+				word-wrap: break-word;
+}
+.post{
+	border:1px solid; 
+	background-color: #ffffff;
+	position:static; 
+	margin:5px;  
+	width:60%; 
+	word-break:break-all;
+}
+.postheader{
+	border:1px solid; background-color: #ffffff;
+	position:relative; height:50px;
+}
+.postbody{
+	border:1px solid; background-color: #ffffff; 					
+	position:relative;
+}
+.posttailer{
+	border:1px solid; 
+	background-color: #ffffff; 					
+	position:relative;
+}
+.friendonline{
+	border:1px solid; 
+	position:fixed; 
+	width:20%; 
+	left:79%;
+	top:42px;
+}
+.postheaderImage
+{
+	border:1px solid; background-color: #ffffff; 				
+	position:absolute; width:50px; height:50px;
+}
+.postheaderRight
+{
+	border:1px solid; 
+	background-color: #ffffff; 
+	position:absolute; 
+	left:80px; 
+	top:0px;
+}
+.postheaderRightName
+{
+	border:1px solid; 
+	background-color: #ffffff;
+	position:relative;
+}
+.postheaderRightDate
+{
+	border:1px solid; 
+	background-color: #ffffff; 	
+	position:relative;
+}
+/*.newpostbutton{
+	position: absolute;
+	right: 20px;
+	height: 70px;
+	width: 50px;
+}
+.newposttailer{
+	position: relative;
+	height: 20px;
+}*/

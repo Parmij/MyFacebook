@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/timeline.css">
+	<link rel="stylesheet" type="text/css" href="../css/myPage.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../js/scriptAll.js"></script>
+	<title></title>
+	
+</head>
+
+<body onload="fillPage()">
+<div>
+<div style="z-index:10000; position:fixed; left:100px; width:200px;" >
+	<input type="text" id="p1" size="77" />
+</div>
+<div style="z-index:10001; position:fixed; top:100px; height:100px; left:100px; width:200px; border:1px solid;" id="p2">
+	</div>
+
+</div>
+
+<div>
+	<div id="d0BlueBar" style="position: fixed; z-index:9999">
+		<div id="pageHead" class="clearfix _5bfg" role="banner">
+			<div id="pageLogo" class="_5bfh">
+				<div id="d0">
+				<img id="img3" src="../img/4.png">
+				</div>
+			<div class="_585-" role="search" id="js_7">
+				
+			</div>
+		<div class="clearfix" id="headNav">
+			<div class="_ohf">
+				<ul id="pageNav">
+					<li class="navItem firstItem tinyMan litestandNavItem">
+						<img id="img4" src="../img/10.png">
+						<span onclick="goMyPage()" id="name" class="headerTinymanName"></span>
+					</li>
+
+					<li class="navItem firstItem tinyMan litestandNavItem">
+						<span onclick="goHomePage()" class="headerTinymanName">Home</span>
+					</li>
+
+					<li class="navItem firstItem tinyMan litestandNavItem">
+						<span class="headerTinymanName">Find Freind</span>
+					</li>
+
+					<li class="navItem">
+						<div class="d1Content1"><img id="img6" src="../img/12.png"></div>
+						<div class="d1Content1"><img id="img5" src="../img/11.png"></div>
+						<div class="d1Content1"><img id="img1" src="../img/1.png"></div>
+					</li>
+					<li class="navItem firstItem tinyMan litestandNavItem">
+					<span class="headerTinymanName" onclick="logout()"> Logout</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="cover" class="cover">dsfdsff
+		<div id="photo" class="photo">
+			
+		</div>
+		<div id="coverName" class="coverName">Mohammad Shoukal</div>
+
+		<div id="coverbutton" class="coverbutton">
+			<input type="button" id="buttonaddfriend" value="+1 Add Friend" onclick="addMe()" style="height:30px; width:110px;"/>
+		</div>
+	</div>
+</div>
+</body>
+</html>
